@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 const ses = new AWS.SES({ region: 'us-east-1' });
 
 AWS.config.update({
-    accessKeyId: 'AKIAR6DLPQLY5Z4FGRP2',
-    secretAccessKey: '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'
+    accessKeyId: 'Access_Key',
+    secretAccessKey: 'secretAccessKey'
   });
   
 exports.handler = async (event, context) => {
